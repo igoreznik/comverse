@@ -414,11 +414,11 @@ nav {
 
 @media screen and (max-width: 434px) {
 	.highlight h3 {
-		font-size: 3rem;
+		font-size: 2.8rem;
 	}
 
 	.highlight p {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 }
 
@@ -1022,13 +1022,21 @@ nav {
 	.quote.wide {
 		width: 100%;
 		margin: 0;
-		padding: 0 15px 0 15px;
+		padding: 0 10px 0 10px;
 	}
 
 	.quote {
 		float: none;
 		margin: 60px 0 0;
 	}
+
+	.person-quote-bg {
+		background-color: #3AA6DB;
+		font-size: 2.0rem;
+		text-align: left;
+		margin: 10px 0 0 10px;
+		padding: 10px;
+}
 
 	.quote-position-changer .small {
 		bottom: -220px;
@@ -1041,6 +1049,18 @@ nav {
 	.stories-button.button {
 		margin: 20px 0 20px 0;
 	}
+}
+
+@media screen and (min-width: 350px) and (max-width: 391px) {
+	.person-quote {
+	line-height: 1.2;
+	font-size: 1.6rem;
+	color: #969696;
+}
+
+.person-quote.small-font {
+	font-size: 1.1rem;
+}
 }
 
 /*the footer section*/
@@ -1229,7 +1249,7 @@ footer {
 }
 
 .footer-mobile-link a, .footer-mobile-link span {
-	font-size: 2.4rem;
+	font-size: 2rem;
 	color: white;
 	text-transform: uppercase;
 }
@@ -1259,7 +1279,6 @@ footer {
 	margin-bottom: 5px;
 	background-color: gray;
 	color: white;
-	width: 25%;
 }
 
 .footer-mobile-link select option {
@@ -1267,7 +1286,7 @@ footer {
 }
 
 .copyrights-mobile {
-	font-size: 2rem;
+	font-size: 1.4rem;
 	background-color: white;
 	padding: 15px 0 15px 40px;
 }
